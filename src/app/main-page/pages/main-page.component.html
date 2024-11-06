@@ -1,0 +1,12 @@
+<app-header></app-header>
+<section>
+    <div class="grid-cards">
+        @for (restaurante of restaurantes; track restaurante) {
+        <div class="card">
+            <h4>{{restaurante.nombre}}</h4>
+            <p>{{restaurante.descripcion}}</p>
+        </div>
+        }
+    </div>
+</section>
+<app-footer></app-footer>

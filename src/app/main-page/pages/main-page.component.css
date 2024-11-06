@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  border-top: solid 1px black;
+}
+
+.grid-cards {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-top: 10px;
+  border: solid black 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 20px;
+}
